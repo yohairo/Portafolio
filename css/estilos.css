@@ -1,0 +1,604 @@
+/*yohairo Vargas Melendez*/
+*{
+	padding:0px;
+	margin:0px;
+}
+html,body, #cargando {
+	width:100%;
+	height:100%;
+}
+body {
+	
+	font-family:'Nova Square',"Myriad Pro";
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+}
+#cargando {
+	background-color:#333;
+	text-align: center;
+	padding-top:200px;
+	color:#FFF;
+}
+h1 {
+	font-size:22px;
+}
+h2 {
+	font-size:24px;
+}
+a {
+	color:#666666;
+	text-decoration: none;
+}
+a:active {
+	color:#999999;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color:#0099CC;
+	text-decoration: none;
+}
+/*section --------------------------->*/
+#sec-header-top, #sec-header, #sec-article, #sec-footer, .articulo-portafolio, .movil-inside  {
+   width:100%;	
+}
+/*centrar --------------------------->*/
+#header-top-inside, header, #article-center, footer, .devices, .center, .bocina-movil, .css-movil, .boton-movil, .boton-movil-inside, .mensaje-movil, .margin{
+	margin:auto;
+	display:block;
+}
+article, aside, .titulo-article, .loguito, .aside-1, .sombra-lateral, .tw, .advertencia, .texto-footer, .social, nav li, .tecnologia, .barra-negra, .logos-top, nav, .header-top-logo, .header-top-yohairo {
+	display:inline-block;
+	vertical-align:top;
+}
+.titulo-article {
+	margin-bottom:10px;
+}
+.loguito {
+	background:url(../img/logo-sombra.png) no-repeat;
+	width:35px;
+	height:30px;
+	margin-left:4px;
+	margin-top:-2px;
+}
+#sec-footer {
+	background:#333;
+	border-top:solid 2px #000000;
+}
+.raya-1 {
+	width:100%;
+	margin-bottom:10px;
+	margin-top:10px;
+	opacity:0.2;
+}
+.aside-1 {
+	width:200px;
+	margin-left:50px;
+}
+.sombra-lateral {
+	width:10px;
+	background:url(../img/raya1.png) no-repeat top right;
+	height:300px;
+	margin-left:20px;
+}
+#sec-article {
+	background:url(../img/bg-section.jpg);
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/*header top inicia --------------------->*/
+@media all and (min-width:200px) and (max-width:768px){
+header {
+	background:url(../img/bg-header-inside-movil.jpg) no-repeat center;
+	height:251px;
+}
+footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	height:150px;
+	background:url(../img/bg-footer-bottom-movil.jpg) no-repeat bottom;
+}
+/*no mostrar*/
+aside, .logos-top {
+	display:none;
+}
+#header-top-inside {
+	background:none;
+}
+#sec-header {
+	height:251px;
+	background:url(../img/repeat-movil.jpg) repeat-x;
+}
+#header-top-inside, header, #article-center, footer, article, header {
+	width:100%;
+}
+article {
+	margin-top:10px;
+}
+.social {
+	margin-top:2px;
+}
+/*nav inicia ----------------------->*/
+nav ul{
+	text-align:center;
+}
+nav li {
+	width:auto;
+	height:49px;
+	margin-top:10px;
+}
+/*transition de color -------------------------------*/
+nav li a, .header-top-yohairo a, a {
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	-ms-transition: color 1s;
+	transition: color 1s;
+}
+nav li a {
+	font-size:14px;
+	width:auto;
+	height:49px;
+	padding-left:6px;
+	text-decoration:none;
+	text-shadow:0px 0px 9px rgba(0,0,0,3);
+}
+nav li a:hover, a:focus {
+	font-weight:bold;
+	text-decoration:none;
+	color:#DFF6FF;
+	text-shadow:0px 0px 9px rgba(0,200,255,0.4);
+}
+nav li a.active {
+	color:#fff;
+	margin-top:-4px;
+	text-shadow:0px 0px 9px rgba(0,200,255,0.4);
+}
+/*nav termina ----------------------->*/
+.margin {
+	width:95%;
+}
+nav {
+	margin:auto;
+	display:block;
+}
+.barra-negra {
+	background-color: #1a1a1a;
+    height: 3px;
+    width: 63%;
+    margin: 6px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	padding:2px;
+}
+}
+@media all and (min-width:769px) and (max-width:3000px){
+header {
+	background:url(../img/bg-header-inside.jpg) no-repeat center;
+	width:800px;
+	height:398px;
+}
+footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	height:150px;
+	background:url(../img/bg-footer-bottom.jpg) no-repeat bottom;
+}
+#sec-header {
+	height:401px;
+	background:url(../img/repeat.jpg) repeat-x;
+}
+#header-top-inside, header, #article-center, footer {
+	width:900px;
+}
+article {
+	width:500px;
+	margin-left:10px;
+	margin-top:20px;
+}
+.social {
+	margin-top:-6px;
+}
+.logos-top {
+	width:436px;
+	height:72px;
+}
+#header-top-inside {
+	height:72px;
+	background: url(../img/bg-top-header.png) no-repeat bottom left;
+}
+/*nav inicia ----------------------->*/
+nav ul{
+	text-align:center;
+}
+nav li {
+	width:auto;
+	height:49px;
+	margin-top:7px;
+}
+/*transition de color -------------------------------*/
+nav li a, .header-top-yohairo a, a {
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	-ms-transition: color 1s;
+	transition: color 1s;
+}
+nav li a {
+	font-size:18px;
+	width:auto;
+	height:49px;
+	padding-left:6px;
+	text-decoration:none;
+	text-shadow:0px 0px 9px rgba(0,0,0,3);
+}
+nav li a:hover, a:focus {
+	font-weight:bold;
+	text-decoration:none;
+	color:#DFF6FF;
+	text-shadow:0px 0px 9px rgba(0,200,255,0.4);
+}
+nav li a.active {
+	color:#fff;
+	margin-top:-4px;
+	text-shadow:0px 0px 9px rgba(0,200,255,0.4);
+}
+/*nav termina ----------------------->*/
+.barra-negra {
+	background-color: #1a1a1a;
+    height: 3px;
+    width: 78%;
+    margin: 6px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	padding:2px;
+}
+}
+
+#sec-header-top {
+	height:72px;
+	position:fixed;
+	background: url(../img/bg-header-top.png) repeat-x top;
+	z-index:3000;
+}
+/*posisiones relativas -------------------->*/
+.header-top-logo, .header-top-yohairo a, .barra-negra  {
+	position: relative;
+}
+.header-top-logo {
+	width:67px;
+	height:auto;
+	margin-left:38px;
+}
+.header-top-yohairo a {
+	width:300px;
+	height:auto;
+	float:left;
+	margin-top:19px;
+	text-shadow:0px 0px 9px rgba(0,0,0,1);
+	color:#666666;
+	float:left;
+	width:300px;
+	text-decoration:none;
+}
+.header-top-yohairo a:hover, a:focus {
+	color:#ffffff;
+	text-shadow:0px 0px 9px rgba(0,200,255,0.4);
+	text-decoration:none;
+}
+
+/*Header top termina ------------------->*/
+
+aside {
+	width:300px;
+}
+.texto-rotado {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	writing-mode: lr-tb;
+	margin-left:-120px;
+	margin-top:75px;
+	color:#FFFFFF;
+}
+.tw a{
+	width:33px;
+	height:24px;
+	display:block;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	-o-transition: background 1s;
+	-ms-transition: background 1s;
+	transition: background 1s;
+	background:url(../img/tw.png) no-repeat;
+}
+.tw a:hover{
+	width:33px;
+	height:24px;
+	display:block;
+	background:url(../img/tw2.png) no-repeat;
+}
+/*inicio de barras de progreso */
+.progreso {
+	margin-top:10px;
+}
+
+.barra-azul {
+	background-color: #06C;
+	display:block;
+	height: 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-transition: width .4s ease-in-out;
+	-moz-transition: width .4s ease-in-out;
+	-ms-transition: width .4s ease-in-out;
+	-o-transition: width .4s ease-in-out;
+	transition: width .4s ease-in-out;
+}
+/*animacion en css3 load --------------------*/
+.barra-azul, .tira-app, .tira-design, .tira-web {
+        -webkit-background-size: 30px 30px;
+        -moz-background-size: 30px 30px;
+        background-size: 30px 30px;
+        background-image: -webkit-gradient(linear, left top, right bottom,
+                                                color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),
+                                                color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),
+                                                color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),
+                                                to(transparent));
+        background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                                                transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                                                transparent 75%, transparent);            
+
+        -webkit-animation: animate-stripes 3s linear infinite;
+        -moz-animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+        0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+
+@-moz-keyframes animate-stripes {
+        0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+.tecnologia {
+	width:100px;
+	margin-top:4px;
+	font-size:10px;
+}
+.texto-breve {
+	margin-top:20px;
+	font-size:12px;
+}
+/*tiras portafolio----------------*/
+.tira-design, .tira-web, .tira-app {
+	color:#FFFFFF;
+	font-size:14px;
+	padding:5px 4px 4px 10px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	border:dashed 1px #fff;
+	-webkit-transform: skew(-20deg); 
+    -moz-transform: skew(-20deg); 
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+.tira-design {
+	width:95%;
+	background-color:#016600;
+}
+.tira-web {
+	width:75%;
+	background-color:#666;
+}
+.tira-app {
+	width:60%;
+	background-color:#006699;
+}
+/*formulario ----------------*/
+input{
+	font-family:Arial;
+	padding:8px 0 8px 5px;
+	margin:0 0 10px 0;
+	background:#fff;
+	border:1px solid #dbdbdb;
+	color:#999;
+	font-size:13px;
+	display:block;
+	width:80%;
+}
+textarea{
+	font-family:Arial;
+	padding:8px 0 8px 5px;
+	margin:0 0 10px 0;
+	width:80%;
+	background:#fff;
+	border:1px solid #dbdbdb;
+	color:#999;
+	font-size:13px;
+	display:block;
+	height:60px;
+	resize:none;
+}
+/*degradado gris ---------------------------------------*/
+.boton-enviar, .mensaje-movil  {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#cccccc)) !important; /* Webkit: Chrome, Opera,... */
+	background-image: -moz-linear-gradient(90deg, #F4F4F4, #cccccc 79px);
+	background-image: -o-linear-gradient(90deg, #F4F4F4, #cccccc 79px);
+	background-image: -ms-linear-gradient(90deg, #F4F4F4, #cccccc 79px);
+	background-image: linear-gradient(90deg, #F4F4F4, #cccccc 79px);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#cccccc', gradientType='0');
+}
+.boton-enviar {
+	width:100px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	transition: 1s;
+}
+.boton-enviar:hover {
+	-moz-box-shadow: 0px 0px 2px #000000;
+    -webkit-box-shadow: 0px 0px 2px #000000;
+    box-shadow: 0px 0px 2px #000000;
+}
+/*smartphone css*/
+
+/*boder radius de 10px----------*/
+.css-movil, .movil-inside, .bocina-movil, #burbuja  {
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius : 10px;
+	-webkit-border-radius:10px;
+}
+.css-movil {
+	margin-top:5px;
+	width:160px;
+	height:280px;
+	padding:3px;
+	background-color:#ccc;
+}
+.movil-inside {
+	height:260px;
+	background-color:#fff;
+	padding-top:20px;
+}
+.bocina-movil {
+	height:4px;
+	width:60px;
+	background-color: #CBCBCB;
+}
+/*border radius 3px -----------------------------*/
+.pantalla-movil, .pantalla-movil-yoha, .mensaje-movil, #burbuja, input, textarea {
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius : 3px;
+	-webkit-border-radius:3px;
+}
+.pantalla-movil{
+	width:150px;
+	height:200px;
+	margin:10px 5px 10px 5px;
+	background-color:#333;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	-o-transition: background 1s;
+	-ms-transition: background 1s;
+	transition: background 1s;
+	text-align:center;
+	font-size:12px;
+}
+.pantalla-movil-yoha {
+	width:150px;
+	height:200px;
+	margin:10px 5px 8px 5px;
+	background:url(../img/foto.jpg) no-repeat;
+	text-align:center;
+	font-size:12px;
+}
+.pantalla-movil:hover {
+	background: #09C;
+}
+.barra-pantalla-movil {
+	background-color:#000;
+	font-size:10px;
+	opacity:0.4;
+}
+/*mensaje movil */
+.mensaje-movil {
+	display:block;
+	margin-top:15px;
+	width:130px;
+	height:auto;
+	padding-top:6px;
+	padding-bottom:10px;
+	opacity:0.9;
+	border:solid 1px #FFFFFF;
+}
+.boton-movil { 
+   width: 28px;
+   height: 21px;
+   background: #fff; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   padding-top:7px;
+}
+.boton-movil-inside {
+   width: 10px;
+   height: 10px;
+   border-radius:2px;
+	-moz-border-radius:2px;
+	-o-border-radius : 2px;
+	-webkit-border-radius:2px;
+	border:solid 2px #666666;
+}
+/*sombra padentro */
+.pantalla-movil, .bocina-movil, .pantalla-movil-yoha, .boton-movil, .tira-design, .tira-web, .tira-app {
+    -moz-box-shadow:inset 0px 0px 8px #000000;
+    -webkit-box-shadow:inset 0px 0px 8px #000000;
+    box-shadow:inset 0px 0px 8px #000000;
+}
+/*sombra pa fuera */
+.css-movil, .mensaje-movil, #burbuja{
+    -moz-box-shadow: 0px 0px 10px #000000;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
+}
+/*cuentas----------*/
+#burbuja ,#burbuja:before {
+	display:none;
+}
+.pantalla-movil:hover #burbuja ,#burbuja:before {
+	display:block;
+	color:#FFFFFF;
+}
+#burbuja {
+	padding:4px;
+    z-index:999;
+    width: auto; 
+    height:auto; 
+    background: #999;
+    position: absolute;
+    left:34px;
+    top:467px;
+}
+#burbuja:after {
+    content:"";
+    position: absolute;
+    left: 100%;
+    top: 25px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid #999;
+    border-bottom: 13px solid transparent;
+}
+/*yohairo Vargas Melendez*/

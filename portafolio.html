@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="title" content="Yohairo Vargas Melendez" />
+<meta name="description" content="Portafolio Web Yohairo Vargas M." />
+<meta name="keywords" content="HTML5,CSS3,JavaScript,php,mysql,wordpress,joomla,responsive web desing" />
+<meta name="author" content="Yohairo Vargas Melendez" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Yohairo Vargas M -Developer</title>
+<script language="javascript" src="js/html5.js"></script>
+<script language="javascript" src="js/jquery-1.4.3.min.js"></script>
+<script language="javascript" src="js/ie.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
+<link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
+<!--inicia el script -->
+
+<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="css/galeria.css" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>
+    
+<!-- aqui termina -->    
+</head>
+
+<body onload="document.getElementById('cargando').style. display='none';">
+<div id="cargando"><p>&nbsp;</p><p>&nbsp;</p><div class="tira-web" style="margin:auto; display:block;">Cargando</div></div>
+<section id="sec-header-top">
+    	<div id="header-top-inside">
+        <!-- logos top-->
+        	<div class="logos-top">
+        	<div class="header-top-logo"><img src="img/logo-metal.png" alt="logo"></div>
+            <div class="header-top-yohairo"><a href="#"><h1>Yohairo Vargas Melendez</h1></a></div>
+            </div>
+            <nav>
+            <ul>
+            	<li><a href="index.html" >Inicio</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="portafolio.html" class="active">Portafolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+        </div>
+</section>
+<section id="sec-header">
+	<header>
+    	
+    </header>
+</section>
+<section id="sec-article">
+	<section id="article-center">
+        <article class="articulo-portafolio">
+          <div class="margin">
+                <div class="titulo-article"><h2>-Portafolio</h2></div><div class="loguito"></div>
+                <hr class="raya-1">
+        	    <div class="tira-design">Diseño Grafico:</div>
+                <p>
+                <a id="example5" href="./portafolio/design/d1b.jpg"><img alt="Diseño" src="./portafolio/design/d1s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d2b.jpg"><img alt="Diseño" src="./portafolio/design/d2s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d3b.jpg"><img alt="Diseño" src="./portafolio/design/d3s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d4b.jpg"><img alt="Diseño" src="./portafolio/design/d4s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d5b.jpg"><img alt="Diseño" src="./portafolio/design/d5s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d6b.jpg"><img alt="Diseño" src="./portafolio/design/d6s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d7b.jpg"><img alt="Diseño" src="./portafolio/design/d7s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d8b.jpg"><img alt="Diseño" src="./portafolio/design/d8s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d9b.jpg"><img alt="Diseño" src="./portafolio/design/d9s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d10b.jpg"><img alt="Diseño" src="./portafolio/design/d10s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d11b.jpg"><img alt="Diseño" src="./portafolio/design/d11s.jpg" /></a>
+                <a id="example5" href="./portafolio/design/d12b.jpg"><img alt="Diseño" src="./portafolio/design/d12s.jpg" /></a>
+	            </p>
+                <hr class="raya-1">
+                <div class="tira-web">Desarrollo Web:</div>
+                <p>
+		        <a id="example5" href="./portafolio/web/w1b.jpg" title="www.416businesscenter.com"><img alt="Desarrollo web" src="./portafolio/web/w1s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w2b.jpg" title="www.halloweenatthecave.com"><img alt="Desarrollo web" src="./portafolio/web/w2s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w3b.jpg" title="www.showandserve.com/registro"><img alt="Desarrollo web" src="./portafolio/web/w3s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w4b.jpg" title="www.fitchannel.net"><img alt="Desarrollo web" src="./portafolio/web/w4s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w5b.jpg" title="www.416businesscenter.com/colour/colour"><img alt="Desarrollo web" src="./portafolio/web/w5s.jpg" /></a>
+				<a id="example5" href="./portafolio/web/w6b.jpg" title="www.reymicastellanos.com/songerie"><img alt="Desarrollo web" src="./portafolio/web/w6s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w7b.jpg" title="www.showandserve.com"><img alt="Desarrollo web" src="./portafolio/web/w7s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w8b.jpg" title="www.softmax.us"><img alt="Desarrollo web" src="./portafolio/web/w8s.jpg" /></a>
+                <a id="example5" href="./portafolio/web/w9b.jpg" title="www.ideasdeapoyo.com"><img alt="Desarrollo web" src="./portafolio/web/w9s.jpg" /></a>
+	            </p>
+                <hr class="raya-1">
+                <div class="tira-app">Aplicaciones Moviles:</div>
+                <p>
+		        <a id="example5" href="./portafolio/app/a1b.jpg" title="Movil App IOS"><img alt="aplicaiones moviles" src="./portafolio/app/a1s.jpg" /></a>
+                <a id="example5" href="./portafolio/app/a2b.jpg" title="Movil App Android"><img alt="aplicaiones moviles" src="./portafolio/app/a2s.jpg" /></a>
+                <a id="example5" href="./portafolio/app/a3b.jpg" title="Movil Web-App"><img alt="aplicaiones moviles" src="./portafolio/app/a3s.jpg" /></a>
+	            </p>
+                <span style="font-size:12px; color:#999999;">Programacion Web              HTML5+CSS3+Javascript+Responsive Design</span>
+                <hr class="raya-1">
+          </div>        
+        </article>
+    </section>	
+</section>
+<section id="sec-footer">
+	<footer>
+    	<div class="texto-footer">© Copyright Todos los Derechos Reservados. Yohairo Vargas Melendez Cel : 829-983-0333 </div>
+        <div class="social">
+            	<div class="tw">
+                	<a href="http://twitter.com/#!/yohairo" target="_blank" title="@yohairo">
+                    
+                	</a>
+                </div>   
+        </div>
+    </footer>
+</section>
+   
+	
+</body>
+</html>
