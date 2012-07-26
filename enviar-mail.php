@@ -103,11 +103,12 @@ $subject = str_replace('[nombre]', $name, $subject);
 $headers = 'From: '.$name.' <'.$from.'>';
 if ( ! mail($email, $subject, $message, $headers))
    {
-	   echo"<p>&nbsp;</p><img src='img/enviado.png' alt='advertencia' class='advertencia'> <div class='advertencia'>Mensaje Envido.</div><p>&nbsp;</p>Cuanto antes tendra un respuesta.";
+	   echo"<p>&nbsp;</p><img src='img/advertencia.png' alt='advertencia' class='advertencia'> <div class='advertencia'>Ha Ocurrido un error trate Nuevamente.</div><p>&nbsp;</p><a href='contacto.html'>Volver</a>"; 
    }
    else
    {
-	   echo"<p>&nbsp;</p><img src='img/advertencia.png' alt='advertencia' class='advertencia'> <div class='advertencia'>Ha Ocurrido un error trate Nuevamente.</div><p>&nbsp;</p><a href='contacto.html'>Volver</a>";
+	  
+    echo"<p>&nbsp;</p><img src='img/enviado.png' alt='advertencia' class='advertencia'> <div class='advertencia'>Mensaje Envido.</div><p>&nbsp;</p>Gracias por escribir lo mas pronto posible tendra su respuesta.";
 	}
 ?>
           </div>       
